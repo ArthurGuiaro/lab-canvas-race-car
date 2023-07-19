@@ -1,11 +1,9 @@
+
+let button = document.querySelector("#start-button")
 let imgRoad= new Image()
 let imgCar= new Image()
-window.onload(() => {
-    imgRoad.src = "../images/road.png"
-    imgCar.src = "../images/car.png"
-
-})
-let button = document.querySelector("#start-button")
+imgRoad.src = "../images/road.png"
+imgCar.src = "../images/car.png"
 let obstacles= []
 let interval = null
 let game = {
